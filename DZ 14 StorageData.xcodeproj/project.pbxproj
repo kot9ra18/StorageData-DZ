@@ -14,6 +14,7 @@
 		F000B29127BE5949002F688A /* DZ_14_StorageData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F000B28F27BE5949002F688A /* DZ_14_StorageData.xcdatamodeld */; };
 		F000B29327BE594C002F688A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F000B29227BE594C002F688A /* Assets.xcassets */; };
 		F000B29627BE594C002F688A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F000B29427BE594C002F688A /* LaunchScreen.storyboard */; };
+		F00782B427BEF3D600754B26 /* PersistanceUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00782B327BEF3D600754B26 /* PersistanceUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F000B29227BE594C002F688A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F000B29527BE594C002F688A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F000B29727BE594C002F688A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00782B327BEF3D600754B26 /* PersistanceUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				F000B28627BE5949002F688A /* AppDelegate.swift */,
 				F000B28827BE5949002F688A /* SceneDelegate.swift */,
 				F000B28A27BE5949002F688A /* ViewController.swift */,
+				F00782B327BEF3D600754B26 /* PersistanceUD.swift */,
 				F000B28C27BE5949002F688A /* Main.storyboard */,
 				F000B29227BE594C002F688A /* Assets.xcassets */,
 				F000B29427BE594C002F688A /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F000B28B27BE5949002F688A /* ViewController.swift in Sources */,
+				F00782B427BEF3D600754B26 /* PersistanceUD.swift in Sources */,
 				F000B28727BE5949002F688A /* AppDelegate.swift in Sources */,
 				F000B29127BE5949002F688A /* DZ_14_StorageData.xcdatamodeld in Sources */,
 				F000B28927BE5949002F688A /* SceneDelegate.swift in Sources */,
