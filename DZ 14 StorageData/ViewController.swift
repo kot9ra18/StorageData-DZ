@@ -23,15 +23,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var surNameTextField: UITextField!
     
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        nameTextField.text = Persistans.shared.userName
+        surNameTextField.text = Persistans.shared.userSurName
     }
 
+    @IBAction func nameActionTextField(_ sender: Any) {
+        Persistans.shared.userName = nameTextField.text
+    }
+    
+    @IBAction func surNameActionTextField(_ sender: Any) {
+        Persistans.shared.userSurName = surNameTextField.text
+    }
+    
 
 }
 
